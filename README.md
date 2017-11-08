@@ -1,12 +1,14 @@
 # GIF-Library-SpringBoot-App
 A GIF library webapp done using Spring Boot and Thymeleaf
 
-#### This is how it looks right now?
+
+
+## This is how it looks right now?
 
 ![Gif](giflib.gif)
 
 
-#### To-Do
+## To-Do
 
  - #### Design
 
