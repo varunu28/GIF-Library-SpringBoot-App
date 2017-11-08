@@ -7,6 +7,7 @@ import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 @Component
 public class GifRepository {
@@ -26,6 +27,13 @@ public class GifRepository {
             }
         }
         return null;
+    }
+
+    public List<Gif> findBySearch(String search) {
+        return ALL_GIFS
+                .stream()
+                .filter(e-> e.getName().toLowerCase().contains(search))
+                .collect(Collectors.toList());
     }
 
     public List<Gif> getAllGifs() {

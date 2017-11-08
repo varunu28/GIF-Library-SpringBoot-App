@@ -18,17 +18,9 @@ public class SearchController {
     private GifRepository gifRepository;
 
     @RequestMapping(value="/", params="q")
-    public String getSearch(@RequestParam ("q") String q, ModelMap modelMap) {
-        List<Gif> gifs = gifRepository.getAllGifs();
-        List<Gif> matchedGifs = new ArrayList<>();
-
-        for (Gif gif : gifs) {
-            if (gif.getName().toLowerCase().contains(q.toLowerCase())) {
-                matchedGifs.add(gif);
-            }
-        }
-
-        modelMap.put("search", matchedGifs);
+    public String listSearch(@RequestParam ("q") String q, ModelMap modelMap) {
+        List<Gif> gifs= gifRepository.findBySearch(q);
+        modelMap.put("gifs", gifs);
         return "search";
     }
 }
