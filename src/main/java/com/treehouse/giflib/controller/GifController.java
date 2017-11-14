@@ -17,7 +17,7 @@ public class GifController {
     @Autowired
     private GifRepository gifRepository;
 
-    @RequestMapping("/")
+    @RequestMapping("/home")
     public String listGifs(ModelMap modelMap) {
         List<Gif> allGifs = gifRepository.getAllGifs();
         modelMap.put("gifs", allGifs);
