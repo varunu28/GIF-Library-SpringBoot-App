@@ -1,8 +1,6 @@
 # GIF-Library-SpringBoot-App
 A GIF library webapp done using Spring Boot and Thymeleaf
 
-
-
 ## This is how it looks right now?
 
 ![Gif](giflib.gif)
@@ -39,3 +37,4 @@ A GIF library webapp done using Spring Boot and Thymeleaf
  - #### Containerize the App
     
     - [ ] Using Docker to containerize the App
+

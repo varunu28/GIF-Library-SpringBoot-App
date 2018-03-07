@@ -3,8 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/giflib.iml" filepath="$PROJECT_DIR$/.idea/modules/giflib.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giflib_main.iml" filepath="$PROJECT_DIR$/.idea/modules/giflib_main.iml" group="giflib" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giflib_test.iml" filepath="$PROJECT_DIR$/.idea/modules/giflib_test.iml" group="giflib" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giflib-hibernate.iml" filepath="$PROJECT_DIR$/.idea/modules/giflib-hibernate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giflib-hibernate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/giflib-hibernate_main.iml" group="giflib-hibernate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/giflib-hibernate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/giflib-hibernate_test.iml" group="giflib-hibernate" />
     </modules>
   </component>
 </project>
